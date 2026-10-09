@@ -32,7 +32,7 @@
         <div class="container">
             <h2>Featured Projects</h2>
             <p class="section-intro">
-                Six independent, production-grade systems across Python and Java — each with
+                Seven independent, production-grade systems across Python, Java, and TypeScript — each with
                 strict typing, tests, CI on Python 3.12/3.13/3.14, and honest documentation.
             </p>
 
@@ -145,6 +145,23 @@
                     <p class="project-meta">25 tests &middot; GitHub Actions CI &middot; Java 21</p>
                     <a href="https://github.com/rehansaeedjutt-rgb/orderforge" class="project-link">View repository &rarr;</a>
                 </article>
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3>streamforge</h3>
+                        <span class="badge">Data Engineering</span>
+                    </div>
+                    <p class="project-desc">
+                        Real-time crypto pipeline: Binance WebSocket &rarr; Kafka &rarr; tumbling-window
+                        aggregation &rarr; SQLite. Producer/consumer split so multiple downstream
+                        services can consume the same stream. VWAP, volume, and high/low per window.
+                    </p>
+                    <div class="tech-tags">
+                        <span>Python</span><span>Kafka</span><span>asyncio</span>
+                        <span>pydantic</span><span>SQLite</span>
+                    </div>
+                    <p class="project-meta">18 tests &middot; GitHub Actions CI &middot; Kafka 3.9</p>
+                    <a href="https://github.com/rehansaeedjutt-rgb/streamforge" class="project-link">View repository &rarr;</a>
+                </article>
             </div>
         </div>
     </section>
@@ -169,12 +186,12 @@
                 infrastructure.
             </p>
             <div class="tech-grid">
-                <div><strong>Languages</strong><span>Python &middot; Java &middot; SQL &middot; HTML/CSS</span></div>
+                <div><strong>Languages</strong><span>Python &middot; Java &middot; TypeScript &middot; SQL &middot; HTML/CSS</span></div>
                 <div><strong>Async &amp; Networking</strong><span>asyncio &middot; aiohttp &middot; websockets</span></div>
-                <div><strong>Data &amp; Validation</strong><span>pydantic v2 &middot; SQLite &middot; PostgreSQL</span></div>
+                <div><strong>Data &amp; Validation</strong><span>pydantic v2 &middot; SQLite &middot; PostgreSQL &middot; Kafka &middot; Flink</span></div>
                 <div><strong>Quality</strong><span>ruff &middot; mypy --strict &middot; pytest</span></div>
                 <div><strong>Build &amp; CI</strong><span>Maven &middot; Docker &middot; GitHub Actions &middot; Linux</span></div>
-                <div><strong>Domain</strong><span>Crypto &middot; Quant &middot; Web3 &middot; AI Agents</span></div>
+                <div><strong>Domain</strong><span>Crypto &middot; Quant &middot; Web3 &middot; AI Agents &middot; Streaming</span></div>
             </div>
         </div>
     </section>
